@@ -1,0 +1,494 @@
+@font-face {
+    font-family: poppins;
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: poppins !important;
+}
+
+.s-icon {
+    width: 30px;
+    height: 30px;
+}
+
+ul {
+    margin-left: 550px;
+}
+
+
+ul li a:hover {
+    color: orange !important;
+}
+
+/* hero-sec */
+.hero-sec {
+    display: flex;
+    margin-top: 65px;
+}
+
+
+.hero-one .veg-img {
+    height: 400px;
+    width: 600px;
+}
+
+.hero-two h1 {
+    font-weight: bolder;
+    font-size: 62px;
+}
+
+.shop {
+    color: orange;
+}
+
+.vs-pera {
+    width: 400px;
+}
+
+.a-btns {
+    margin: 20px 155px;
+    height: 90px;
+    width: 200px;
+}
+
+.a-btns .a-btn1 {
+    margin-left: 15px;
+    height: 70px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: rgb(19, 24, 23);
+}
+
+.a-btns .a-btn2 {
+    margin-left: 15px;
+    height: 70px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+.btns {
+    height: 100px;
+    width: 400px;
+    margin-top: 75px;
+}
+
+.btns .btns1 {
+    text-decoration: none;
+    padding: 20px 35px;
+    margin-left: 10px;
+    background-color: orange;
+    color: white;
+}
+
+.btns .btns1:hover{
+    text-decoration: none;
+    padding: 20px 35px;
+    margin-left: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: 4px 4px 8px rgb(164, 164, 164);
+}
+
+.btns .btns2 {
+    text-decoration: none;
+    padding: 20px 35px;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 0.928);
+    color: white;
+}
+
+.btns .btns2:hover{
+    text-decoration: none;
+    padding: 20px 35px;
+    margin-left: 10px;
+    background-color: orange;
+    color: white;
+    box-shadow: 4px 4px 8px rgb(164, 164, 164);
+}
+
+/* Content-sec */
+.con-main {
+    margin-top: 35px;
+}
+
+.content {
+    margin: auto;
+    height: 700px;
+    width: 700px;
+    text-align: center;
+}
+
+.content .letus-img {
+    height: 350px;
+    width: 650px;
+}
+
+.about-pera {
+    width: 500px;
+    height: 150px;
+    margin: auto;
+}
+
+.btn3 {
+    text-decoration: none;
+    padding: 17px 35px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.btn3:hover{
+    background-color: orange;
+    box-shadow: 4px 4px 8px rgb(164, 164, 164);
+}
+
+/* Cards-sec */
+.house {
+    margin-top: 35px;
+}
+
+.content-one {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Card {
+    height: 360px;
+    width: 190px;
+    margin: 20px;
+    border: 1px dashed black;
+}
+
+.Card img {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.Card h4,
+p {
+    margin-top: 2px;
+    text-align: center;
+}
+
+.Card h4 span {
+    color: orange;
+}
+
+.btn4 {
+    text-decoration: none;
+    padding: 5px 22px;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.btn4:hover{
+    background-color: orange;
+    box-shadow: 4px 4px 8px rgb(164, 164, 164);
+}
+
+.rm-btn {
+    margin-top: 40px;
+}
+
+.abc {
+    margin: auto;
+    height: 250px;
+    width: 100%
+}
+
+/* Content-two Section */
+.veg-image {
+    height: 350px;
+    width: 750px;
+}
+
+.gif{
+    height: 450px;
+}
+
+.git-btn{
+    margin-top: 55px;
+}
+
+.con-main2 {
+    margin-top: 85px;
+}
+
+
+/* Content-three Section */
+
+.test-inline {
+    display: inline-block;
+}
+
+.sec-3 img {
+    position: relative;
+    left: -450px;
+    top: -10px;
+}
+
+.tom-img1 {
+    position: relative;
+    right: -550px;
+    bottom: 10px;
+}
+
+.cli-img {
+    height: 150px;
+    width: 150px;
+}
+
+.h4-inline {
+    display: inline-block;
+}
+
+.h4-color {
+    color: orange;
+}
+
+.s-pera {
+    margin-top: 25px;
+}
+
+.icon-clr {
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+}
+
+
+/* Contact-sec */
+
+.input-box {
+    height: 450px;
+    width: 620px;
+    margin-left: -200px;
+}
+
+input {
+    display: block;
+    width: 600px;
+    height: 65px;
+    margin-top: 15px;
+    outline: none;
+    border: 1px solid rgb(230, 230, 230);
+    padding-left: 15px;
+}
+
+.msg {
+    height: 130px;
+}
+
+.con-4 {
+    height: 600px;
+}
+
+.send-btn {
+    margin-top: 32px;
+    margin-left: -230px;
+}
+
+.btn6 {
+    text-decoration: none;
+    padding: 17px 55px;
+    border-radius: 35px;
+    background-color: orange;
+    color: white;
+}
+
+.btn6:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 4px 4px 8px rgb(164, 164, 164);
+}
+
+/* Footer */
+.container-f{
+    display: flex;
+    height: 300px;
+    margin: auto;
+}
+.f-con{
+    height: 40px;
+    width: 250px;
+    display: flex;
+    margin-top: 8px;
+}
+
+.f-con p{
+    padding-left: 15px;
+    margin-top: 35px;
+}
+
+.card-body img {
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 8px;
+    margin-top: 35px;
+}
+
+.sub-btn{
+    text-decoration: none;
+    padding: 17px 55px;
+    border-radius: 35px;
+    background-color: orange;
+    color: white;
+}
+
+.btn7{
+    margin-top: 35px;
+}
+
+.sub-btn:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 4px 4px 8px rgb(164, 164, 164);
+}
+
+.footer-inp{
+    height: 40px;
+    width: 300px;
+    margin-top: 35px;
+}
+
+
+/* Media Quries */
+
+@media only screen and (max-width:1187px) {
+    .input-box {
+        height: 450px;
+        width: 400px;
+        margin: auto;
+    }
+
+    input {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width:1497px) {
+    .sec-3 img {
+        position: relative;
+        left: -50px;
+        top: -10px;
+    }
+    
+    .tom-img1 {
+        position: relative;
+        right: -150px;
+        bottom: 10px;
+    }
+
+}
+
+@media only screen and (max-width:1191px) {
+    ul {
+        margin-left: 300px;
+    }
+
+    .hero-sec {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:982px) {
+
+    .card-body{
+        width: 250px;
+    }
+
+    .footer-inp{
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width:908px) {
+
+    .veg-image {
+        height: 150px;
+        width: 350px;
+    }
+
+    .gif{
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:792px) {
+
+    .carousel {
+        margin: auto;
+        height: 300px;
+        width: 500px;
+    }
+
+    .s-pera{
+        width: 250px;
+    }
+
+    .h4-inline{
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width:772px) {
+
+    .container-f{
+        flex-direction: column;
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width:708px) {
+
+    .content {
+        margin: auto;
+        height: 700px;
+        width: 500px;
+        text-align: center;
+    }
+
+    .content .letus-img {
+        height: 350px;
+        width: 450px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:728px) {
+
+    .hero-one .veg-img {
+        margin: auto;
+        height: 300px;
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width:618px) {
+
+    .hero-one .veg-img {
+        margin: auto;
+        height: 300px;
+        width: 450px;
+    }
+}
